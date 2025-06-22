@@ -1,0 +1,9 @@
+[
+  {
+    "EventCode": "4625",
+    "user": "john.doe",
+    "src": "192.168.1.10",
+    "host": "workstation1",
+    "_time": "2024-10-15T10:02:00Z"
+  }
+]
