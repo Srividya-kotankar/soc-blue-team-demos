@@ -1,0 +1,4 @@
+index=winlogbeat OR index=wineventlog sourcetype="WinEventLog:Security"
+(EventCode=4625)
+| stats count by user, host, src, _time
+| where count >= 5
